@@ -1,0 +1,1474 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Creepster&family=Grechen+Fuemen&family=Inter:wght@300&family=Montserrat&family=Moon+Dance&family=Orbitron:wght@600&family=PT+Serif&family=Parisienne&family=Quintessential&family=Roboto&family=Rubik+Beastly&family=Satisfy&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Bitter&family=Charm&family=Charmonman&family=Emilys+Candy&family=Lato:wght@300&family=Luckiest+Guy&family=Mountains+of+Christmas&family=Orbitron:wght@500&display=swap');
+
+:root {
+  --clr-neon: hsl(317 100% 54%);
+  --clr-bg: hsl(323 21% 16%);
+}
+
+
+
+
+.myLogo {
+  height: 100px;
+  width: 100px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  overflow-x: hidden;
+  color: #fff;
+  background: #1d1d1d;
+  background-image: -webkit-linear-gradient(90deg,rgba(29,29,29,.7),#000 90%),url(http://pizza-palette.herokuapp.com/static/media/background.e472756b.jpg);
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0rem;
+  height: 6rem;
+  position: fixed;
+  width: 100%;
+  z-index: 300;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.06);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  margin: auto;
+  border-radius: 8px;
+ -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+  box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+
+.logo {
+  cursor: pointer;
+  padding-left: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.link-item {
+  text-decoration: none;
+  margin: 0 1rem;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.cart-link {
+  position: relative;
+  top: 0.5rem;
+  
+  
+}
+.link-item div {
+  color: white;
+  background: red;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 0.6rem;
+  vertical-align: top;
+  position: absolute;
+  top: -0.5rem;
+  right: -0.08rem;
+}
+.cart {
+  width: 2rem;
+  height: 1.7rem;
+  margin: 0 0 0 4rem;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.welcome {
+  text-align: center;
+  color: white;
+}
+
+.crave {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.main-title.favourite {
+  text-align: center !important;
+}
+
+#do {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 12rem;
+  background-color: rgba(255, 255, 255, 0.06);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  margin: auto;
+  border-radius: 8px;
+ -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+  box-shadow: 20px 20px 22px rgba(192, 107, 107, 0.2);
+  padding: 4rem;
+}
+.uk {
+  text-align: center;
+  color: white;
+  
+}
+.many{
+
+  text-align: center;
+}
+.tenhang p{
+  text-align: center;
+  width: 100%;
+  margin-top: 2rem;
+  
+}
+
+
+.tenhang {
+  width: 50rem;
+  
+}
+
+.socialLinks {
+  margin-top: 2.5rem;
+}
+.socialLinks span {
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+.icons span {
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+ 
+}
+.copy {
+  color: white;
+}
+
+.place{
+  color: white;
+ 
+}
+
+.heart {
+  color: red;
+}
+
+.icons {
+  margin-top: 1.7rem;
+}
+.homepage {
+  margin-top: 10rem;
+}
+.hero {
+  width: 100%;
+  margin: 1rem;
+}
+.hero div {
+  height: 15rem;
+
+  padding: 3rem;
+}
+
+.main-image {
+  width: 30rem;
+  height: 20rem;
+  border-radius: 1.5rem;
+}
+
+.main-title h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+
+.logo-title {
+  font-size: 3.5rem;
+}
+.main-title p {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+.main-title {
+  text-align: center;
+}
+.title-order {
+  text-decoration: none;
+  color: darkorange;
+  background: white;
+  padding: 0.5rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+}
+.menuList img {
+  width: 100%;
+  height: 10rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.image{
+  width: 100%;
+}
+
+.btn-btn {
+  padding: .3rem;
+  text-align: center !important;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--clr-neon);
+  border: var(--clr-neon) 0.125em solid;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+  background: var(--clr-bg);
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  font-size: 1rem;
+  box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+
+  position: relative;
+}
+
+.btn-btn::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  background: var(--clr-neon);
+  top: 120%;
+  left: 0;
+  width: 100%;
+  
+
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1em);
+  opacity: 0.7;
+}
+.btn-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2em 0.5em var(--clr-neon);
+  opacity: 0;
+  background-color: var(--clr-neon);
+  z-index: -1;
+  transition: opacity 100ms linear;
+}
+
+.btn-btn:hover,
+.btn-btn:focus {
+  color: var(--clr-bg);
+  text-shadow: none;
+  background-color: var(--clr-neon);
+}
+
+.btn-btn:hover::before,
+.btn-btn:focus::before {
+  opacity: 1;
+}
+.btn-btn:hover::after,
+.btn-btn:focus::after {
+  opacity: 1;
+}
+
+
+.itemPrice {
+  font-family: 'Charm', cursive;
+  right: 0.1rem;
+}
+
+.bag {
+  color: white;
+  cursor: pointer;
+}
+
+.bag:hover {
+  color: white;
+}
+.menuWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.menuList {
+  width: 15rem;
+  height: 19rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: #1d1d1d;
+  position: relative;
+}
+.menuList h3 {
+  color: white;
+  font-size: 1rem;
+  margin-top: -0.6rem;
+}
+.featured {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.4rem;
+  text-decoration: none;
+  color: white;
+  background-color: darkgreen;
+  font-size: 0.9rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+}
+
+.like{
+  color: white;
+  position: absolute;
+  top: .9rem;
+  right: .7rem;
+  font-size: 1.5rem;
+}
+
+.names {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.menuDec {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  
+}
+.menuItems {
+  text-decoration: none;
+}
+
+.menu {
+  min-height: 70vh;
+  margin-top: 10rem;
+  padding-bottom: 3rem;
+}
+.loadingState {
+  color: white;
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.loadingState span {
+  color: white;
+}
+.menu h1,
+.categories-section h1 {
+  margin: 4rem 0 0 7rem;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+.details {
+  width: 30rem;
+  margin-top: 2rem;
+  color: darkorange;
+  text-align: left;
+}
+.cta1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 2rem;
+  color: red;
+}
+.cta1 svg {
+  width: 6rem;
+}
+
+.categories-section {
+  min-height: 70vh;
+  margin-top: 12rem;
+}
+
+
+.food-group {
+  background-color: #1d1d1d;
+  width: 16rem;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+.categories {
+  padding: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2rem;
+}
+.food-group img {
+  height: 12rem;
+  width: 100%;
+  border-radius: 0.8rem 0.8rem 0 0;
+  margin-left: .5rem;
+  
+}
+
+.comment-box {
+  width: calc(15em + 5vw);
+  background: #1d1d1d;
+ 
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+.comment-description {
+  font-size: smaller;
+  font-weight: 300;
+  font-style: italic;
+}
+.food-group h3 {
+  color: white;
+  font-family: 'Moon Dance', cursive;
+  font-size: 1.2rem;
+}
+.ant-rate {
+  list-style: none;
+  display: inline-block;
+  font-feature-settings: "tnum", "tnum";
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: unset;
+  outline: none;
+}
+
+.ant-rate-star {
+  color: #fadb14;
+  position: relative;
+  display: inline-block;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.checked {
+  color: orange;
+}
+
+.star {
+  color: #fadb14;
+}
+
+-zero {
+  color: #1d1d1d;
+}
+
+:not(:last-child) {
+  margin-right: 8px;
+}
+
+
+.containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 3.1rem;
+  padding-bottom: 5rem;
+}
+
+.customer {
+  position: relative;
+  top: -1rem;
+  text-align: center;
+  font-weight: 600 ;
+}
+
+.comment-author{
+  font-weight: 800;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.unchecked{
+  color: lightslategray;
+}
+
+.categories-card {
+  text-decoration: none;
+}
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+.category-section {
+  margin-top: 10rem;
+}
+.category-section h1 {
+  color: darkorange;
+  text-transform: capitalize;
+  text-align: left;
+  margin-left: 7rem;
+}
+.category-load {
+  color: darkorange;
+}
+.searchlist {
+  margin-top: 22.5rem;
+  margin:4px, 4px;
+  padding:4px;
+  width: 500px;
+  height: 110px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align:justify;
+  font-size: 0.8rem;
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+  z-index: 1000;
+}
+.searchlist::-webkit-scrollbar {
+  display: none;
+}
+.searchInput {
+  width: 40rem;
+  padding: 0 1rem;
+  border-radius: 0.7rem;
+  border: transparent;
+  color: #1d1d1d;
+  font-weight: 600;
+  font-size: 1.2rem;
+  outline: 0;
+  height: 3rem;
+}
+.searchInput::placeholder {
+  color: #1d1d1d;
+}
+.searchterm {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 80%;
+  padding: 0 2rem;
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #1d1d1d;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+.error {
+  color: white;
+  position: absolute;
+  top: 13rem;
+  left: 35rem;
+}
+.search-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -7rem;
+}
+
+
+.fa {
+  width: 1.2rem;
+  position: relative;
+  left: 19.60rem;
+  bottom: 2.6rem;
+  height: 1.5rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  color: #1d1d1d;
+}
+
+.checkout {
+  height: 20rem;
+  width: 40rem;
+  background-color: #1d1d1d;
+  position: absolute;
+  right: 1rem;
+  top: 4rem;
+  box-shadow: 2px 3px 6px black;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.checkoutHolder {
+  position: relative;
+}
+.keyItem {
+  display: flex;
+  margin: 0.5rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.itemImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemImage img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+}
+.checkout::scrollbar {
+  display: block;
+  
+}
+.itemNames {
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 18rem;
+  text-align: left;
+  font-family: 'Charmonman', cursive;
+
+
+}
+
+.rated {
+  right: 0.45rem;
+  position: absolute;
+  border-radius: 50%;
+  padding: .2rem;
+  outline: var(--clr-neon);
+  border: var(--clr-neon);
+  color: whitesmoke;
+  background-color: transparent;
+  font-size: .95rem;
+  top: 2.5rem;
+  font-weight: bolder;
+}
+.foodMan img{
+  height: 18rem;
+  border-radius: 2rem;
+}
+
+.text-center{
+  text-align: center;
+  color: wheat;
+  font-family: 'Charm', cursive;
+}
+
+.menus {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  margin-top: 15rem;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.dsc {
+  color: white;
+}
+
+.holder {
+  justify-content: center;
+}
+
+.villa{
+  color: #DA2C94;
+}
+.itemPrices {
+  color: #DA2C94;
+  font-weight: 600;
+  text-align: left;
+}
+.itemQuantity {
+  font-weight: 600;
+}
+
+.delete {
+  cursor: pointer;
+  color: #DA2C94;
+}
+.itemQuantity input {
+  width: 2.2rem;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+}
+.cartSummary {
+  color: white;
+}
+.empty {
+  color: white;
+  margin-top: 2rem;
+}
+.trash {
+  color: #DA2C94;
+  width: 1rem;
+  font-size: 1.5rem;
+}
+.proceed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 8 rem;
+  margin: 3rem 0;
+}
+.proceed h3 {
+  color: wheat;
+  font-family: 'Emilys Candy', cursive;
+}
+
+.total {
+  color: wheat;
+  font-weight: 800;
+  font-size: 1.2rem;
+  font-family: 'Emilys Candy', cursive;
+}
+.checkoutSection {
+  position: absolute;
+  top: 0;
+  background: #1d1d1d;
+  width: 110%;
+  margin-bottom: 40rem;
+  z-index: 1200;
+  right: -.7rem;
+  left: -.7rem;
+  overflow: hidden;
+  
+}
+
+
+.checkoutSection h2,
+p {
+  color: white;
+}
+.checkout-item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+}
+.checkout-item-details p {
+  text-align: left;
+  flex: 1;
+}
+
+
+.helloElla {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 1rem;
+  color: #DA2C94;
+}
+
+.checkoutHolder.hiElla p {
+  color: #DA2C94;
+}
+.hiElla p{
+  text-align: left;
+  flex: 1;
+  color: #DA2C94 !important;
+}
+
+.checkout-item-name {
+  padding-right: 6rem;
+  text-align: left;
+  color: wheat;
+}
+.amount {
+  color: wheat;
+  font-weight: 600;
+}
+.haniwa{
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #DA2C94;
+}
+
+.city{
+  color: wheat;
+}
+
+.finalTotal{
+  color: #DA2C94;
+  font-family: 'Emilys Candy', cursive;
+}
+.error-route {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-route h2 {
+  color: #DA2C94;
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 1270px) and (min-width: 1066px) {
+  .hero-section {
+    height: 40rem;
+  }
+
+  .hero-section {
+    padding: 1rem;
+  }
+  .main-image {
+    width: 22rem;
+    height: 15rem;
+    border-radius: 1.5rem;
+  }
+}
+
+
+
+@media screen and (max-width: 525px) {
+   
+   .mobile-menu{
+     display: none;
+   }
+   .footer{
+     min-height: 42vh;
+   }
+   .searchInput {
+     width: 12rem;
+   }
+   .search-section{
+     margin-top: 0.1rem;
+   }
+   .searchInput::placeholder{
+     font-size: .7rem;
+   }
+   .fa{
+     position: absolute;
+     right: 10rem;
+     top: 31rem;
+     color: #1d1d1d;
+   }
+   .welcome {
+     font-size: 3rem !important;
+   }
+   .searchlist{
+     height: 25rem;
+     width: 12rem;
+     position: relative;
+     margin-top: 1rem;
+     
+   }
+   .search-section::scrollbar{
+     display: flex;
+   }
+   .explore {
+     font-size: 1.5rem;
+     text-align: center;
+     margin-right: 6rem !important;
+
+   }
+   .customer h1{
+     font-size: 1.5rem;
+   }
+  
+}  
+
+
+@media screen and (max-width: 1065px) and (min-width: 800px) {
+  .logo {
+    font-size: 1.3rem;
+  }
+  .cart-link {
+    position: relative;
+    right: 5rem;
+    top: 0.5rem;
+  }
+  .link-item {
+    font-size: 1rem;
+  }
+  .link-item div {
+    top: -10px;
+    right: -5px;
+  }
+  .mobile-menu {
+    color: #fff;
+  }
+  .navigation {
+    padding-left: 4rem;
+  }
+  .search-section {
+    margin-left: 3rem;
+  }
+  .searchlist{
+    width: 20rem;
+    margin-top: 27rem;
+    margin-right: 3.5rem;
+    
+  }
+  .searchInput {
+    width: 28rem;
+    margin-right: 4rem;
+  }
+ .fa {
+   position: relative;
+   left: 11rem;
+ }
+  .hero {
+    width: 100%;
+    margin: 1rem;
+  }
+  .hero div {
+    flex: 1.5;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-image {
+    width: 30rem;
+    height: 20rem;
+    border-radius: 1.5rem;
+  }
+
+  .logo-title {
+    font-size: 3.5rem;
+  }
+  .main-title p {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 3rem;
+  }
+
+  .food-group {
+    width: 14rem;
+    height: 15rem;
+    margin: 1.5rem;
+  }
+  .footer {
+    padding: 2rem;
+    height: 40vh;
+  }
+
+  .food {
+    margin: 1rem;
+  }
+  .fooditem {
+    width: 80%;
+    border: 2px solid darkorange;
+    margin: 5rem 2rem;
+    flex-direction: column;
+    position: relative;
+    left: 2rem;
+  }
+  .fooditem-section {
+    margin-top: 10rem;
+  }
+  .fooditem img {
+    width: 16rem;
+    height: 14rem;
+  }
+  .cart-link {
+    position: relative;
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+  .link-item div {
+    top: -10px;
+    right: -5px;
+  }
+  .mobile-menu {
+    padding-right: 6rem;
+    font-size: 1.5rem;
+    position: relative;
+    color: white;
+    cursor: pointer;
+  }
+  .link-item:hover {
+    color: #DA2C94;
+  }
+  .navigation-mobile {
+    position: absolute;
+    top: 6rem;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    background-color: #1d1d1d;
+    padding: 2rem;
+    
+  }
+  .error-route {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .error-route h2 {
+    color: darkorange;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 736px) {
+  .mobile-menu {
+    padding-right: 6rem;
+    font-size: 1.5rem;
+    position: relative;
+    color: white;
+    cursor: pointer;
+  }
+  .navigation-mobile {
+    position: absolute;
+    top: 6rem;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    background-color: #1d1d1d;
+    padding: 2rem;
+   
+  }
+  .link-item:hover{
+    color: #DA2C94;
+  }
+  .cart-link {
+    position: relative;
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .link-item div {
+    top: -10px;
+    right: -5px;
+  }
+  .hero-section {
+    display: flex;
+    margin-bottom: 6rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
+    margin-top: 40px;
+  }
+  .logo {
+    font-size: 1.3rem;
+  }
+  .cart-link {
+    position: relative;
+    right: 5rem;
+    top: 0.5rem;
+  }
+  .link-item {
+    font-size: 1rem;
+  }
+  .link-item div {
+    top: -10px;
+    right: -5px;
+  }
+  .navigation {
+    padding-left: 4rem;
+  }
+  .search-section {
+    margin-right: 15rem;
+  }
+  .fa{
+    position: relative;
+    left: 10rem;
+  }
+  .searchInput {
+    width: 25rem;
+    margin-right: 2rem;
+    
+  }
+  .searchlist{
+    width: 15rem !important;
+    margin-top: 30rem;
+    height: 18rem !important;
+    
+  }
+
+  .searchterm:hover {
+    color: #DA2C94;
+  }
+  .hero {
+    width: 100%;
+    margin: 1rem;
+    margin-bottom: 5rem;
+  }
+  .hero div {
+    flex: 1.5;
+    text-align: center;
+    margin-bottom: 4rem;
+    width: 90%;
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-image {
+    width: 18rem;
+    height: 14rem;
+    border-radius: 1.5rem;
+  }
+
+  .logo-title {
+    font-size: 3.5rem;
+  }
+  .main-title p {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 3rem;
+  }
+
+  .food-group {
+    width: 14rem;
+    height: 15rem;
+    margin: 1.5rem;
+  }
+  .footer {
+    padding: 2rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+  }
+  .footer > div {
+    margin: 2rem;
+  }
+  .footer .about {
+    position: relative;
+    left: 2rem;
+    text-align: center;
+  }
+  .searchlist::-webkit-scrollbar {
+    display: flex;
+  }
+
+  .food {
+    margin: 1rem;
+  }
+  .fooditem {
+    width: 80%;
+    margin: 5rem 2rem;
+    flex-direction: column;
+    position: relative;
+    left: 2rem;
+  }
+  .fooditem-section {
+    margin-top: 10rem;
+  }
+  .fooditem img {
+    width: 16rem;
+    height: 14rem;
+  }
+  .fooditem {
+    width: 80%;
+    border: 2px solid darkorange;
+    margin: 5rem 2rem;
+    flex-direction: column;
+    position: relative;
+    left: 2rem;
+  }
+  .fooditem-section {
+    margin-top: 10rem;
+  }
+  .fooditem img {
+    width: 16rem;
+    height: 14rem;
+  }
+  .error-route {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .error-route h2 {
+    color: #DA2C94;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 735px) and (min-width: 525px) {
+  .mobile-menu {
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    position: relative;
+    color: white;
+    cursor: pointer;
+  }
+
+  .navigation-mobile {
+    position: absolute;
+    top: 6rem;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    background-color: #1d1d1d;
+    padding: 2rem;
+  
+  }
+
+  .link-item:hover {
+    color: #DA2C94;
+  }
+  .searchlist{
+    width: 15rem;
+  }
+  
+  .hero-section {
+    height: 50rem;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .logo {
+    font-size: 1.1rem;
+  }
+  .cart-link {
+    position: relative;
+
+    top: 0.5rem;
+  }
+  .link-item {
+    font-size: 1rem;
+  }
+  .link-item div {
+    top: -10px;
+    right: -5px;
+  }
+  .searchInput{
+    width: 20rem;
+  }
+
+  .fa{
+    color: #1d1d1d;
+    position: relative;
+    left: 9rem;
+  }
+
+  .searchInput::placeholder{
+    font-size: 1rem
+  }
+
+  .search-section {
+    display: flex;
+  }
+  .menu h1,
+  .categories-section h1,
+  .category-section h1 {
+    text-align: center;
+    margin-right: 5rem;
+  }
+
+  .hero {
+    width: 100%;
+    margin: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-image {
+    width: 18rem;
+    height: 14rem;
+    border-radius: 1.5rem;
+  }
+
+ 
+  .title-order {
+    margin-top: 2rem;
+  }
+  .main-title p {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 3rem;
+    line-height: 40px;
+  }
+  .main-title h1 {
+    font-size: 2rem;
+  }
+  
+
+  .food-group {
+    width: 14rem;
+    height: 15rem;
+    margin: 1.5rem;
+  }
+  .footer {
+    padding: 2rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+  }
+  .footer > div {
+    margin: 2rem;
+  }
+  .footer .about {
+    position: relative;
+    left: 2rem;
+    text-align: center;
+  }
+
+  .food {
+    margin: 1rem;
+  }
+
+  .fooditem-section {
+    margin-top: 10rem;
+    width: 90%;
+  }
+
+  .details {
+    font-size: 1rem;
+    width: 80%;
+    text-align: center;
+  }
+  .fooditem img {
+    width: 16rem;
+    height: 14rem;
+  }
+  .fooditem {
+    width: 80%;
+
+    margin: 5rem 2rem;
+    flex-direction: column;
+    position: relative;
+    left: 2rem;
+    border: none;
+  }
+  .fooditem-section {
+    margin-top: 10rem;
+  }
+  .fooditem img {
+    width: 16rem;
+    height: 14rem;
+  }
+  .navigation {
+    display: none;
+  }
+
+  .checkout {
+    width: 80%;
+  }
+
+  .checkout-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .checkout-image img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.25rem;
+  }
+
+  
+
+  .checkout-item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+  }
+  .checkout-item-details p {
+    font-size: 0.7rem;
+  }
+  .checkout-page h3 {
+    font-size: 0.8rem;
+  }
+
+  .fooditem h2 {
+    font-size: 0.8rem;
+  }
+  .error-route {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .error-route h2 {
+    color: #DA2C94;
+    text-align: center;
+  }
+}
