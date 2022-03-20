@@ -1,9 +1,7 @@
 Food Ordering Application
-
-This assignment is a React Application where users can navigate to food of their choice and add it to cart and then state the quantity in the cart,pay then their order is queued and processed with a thank you message and Order Number.
 The application make calls to a food API and return hundreds of food product for the customer to buy.
-The application also has search built in for a customer to easily locate the item to buy.
-I built the application with the React-redux state management tool in mind for managing the different state and the Pages were also written Using React-router technology.
+Customers can search for food such as pizza, burger and it has a category section
+The application with the React-redux state management tool.
 
 # Getting Started with Create React App
 
